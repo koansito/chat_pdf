@@ -12,6 +12,7 @@ import platform
 # App title and presentation
 st.title('Generación Aumentada por Recuperación (RAG) 💬')
 st.write("Versión de Python:", platform.python_version())
+st.write("Ay dios mio que perrito tan grande")
 image = Image.open('perrito.jpg')
 
 st.image(image,width=3000)
