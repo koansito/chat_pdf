@@ -12,6 +12,9 @@ import platform
 # App title and presentation
 st.title('Generación Aumentada por Recuperación (RAG) 💬')
 st.write("Versión de Python:", platform.python_version())
+image = Image.open('carlos.jpg')
+
+st.image(image,width=3000)
 
 # Load and display image
 try:
